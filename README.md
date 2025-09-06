@@ -21,7 +21,8 @@ Bot tự động chơi **2048** sử dụng thuật toán **Expectimax**, chiế
   ```bash
   pip install numpy opencv-python pyautogui keyboard pydirectinput
 (Tùy chọn) Android Debug Bridge (ADB) nếu điều khiển trên thiết bị Android.
-⚙️ Cách chạy
+
+## ⚙️ Cách chạy
 
 Clone repository:
 ```bash
@@ -35,7 +36,7 @@ Chạy bot:
 python 2048_bot_corner_blockers.py --autoplay --corner tr --depth 4
 ```
 
-Chọn vùng game khi được yêu cầu (kéo thả chuột qua góc trên-trái và dưới-phải).
+Chọn vùng game khi được yêu cầu (kéo chuột qua góc trên-trái và dưới-phải và bấm Enter trên bàn phím).
 
 | Tham số                    | Mặc định   | Mô tả                                                             |
 | -------------------------- | ---------- | ----------------------------------------------------------------- |
